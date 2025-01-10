@@ -3,16 +3,8 @@ import Image from "next/image";
 import React, { useState } from "react";
 import logo from "../../public/assests/KoinXLogo.png";
 import img from "../../public/assests/Shape.png";
-import { Inter } from "@next/font/google";
-import Link from "next/link";
-
-// Load the Inter font
-const inter = Inter({
-  subsets: ["latin"],
-  weights: [400, 600],
-  display: "swap",
-});
-
+ import Link from "next/link";
+ 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
