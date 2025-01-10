@@ -7,10 +7,7 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-      inter: ['Inter', 'sans-serif'], // Use Inter font globally for the sans-serif family
-    },
-
+      
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
